@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 import styles from './styles.module.css';
+
 export const metadata: Metadata = {
   title: 'Contacts | NextJS',
 };
