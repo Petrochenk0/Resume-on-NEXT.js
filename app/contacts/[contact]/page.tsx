@@ -26,7 +26,7 @@ export async function generateMetadata({ params: { contact } }: Props): Promise<
 } // Мы пишем динамическую функцию которая будет генерировать название сайта при изменении параметров
 export default async function ContactsList({ params: { contact } }: Props) {
   // Интерсная схема показатель конкретного элемента параетров с типом Props
-  const posts = await getPosts(contact); // но зачем мы в аргументах мы передаём contact?
+  const posts = await getPosts(contact);
   return (
     <>
       <h1>
